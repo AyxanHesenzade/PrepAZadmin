@@ -145,4 +145,18 @@ export const S = {
   removedReport: 'Bildiriş silindi',
   removeReportConfirm: 'Bildiriş həmişəlik silinsin?',
   types: { qapali: 'Qapalı (A–E)', aciq_eded: 'Açıq (ədəd)', yazili: 'Yazılı' },
+
+  users: 'İstifadəçilər',
+  usersTotal: 'Cəmi hesab',
+  usersPlain: 'İstifadəçilər',
+  usersAdmins: 'Adminlər',
+  usersSearch: 'E-poçt və ya nömrə üzrə axtar',
+  usersSetupMissing: 'Supabase-də admin_list_users funksiyası yoxdur. supabase/admin_list_users.sql faylını SQL Editor-da işlədin.',
+  userContact: 'E-poçt / nömrə',
+  userRole: 'Rol',
+  userRoleAdmin: 'Admin',
+  userRoleUser: 'İstifadəçi',
+  userAnonymous: 'Anonim',
+  userCreated: 'Qeydiyyat',
+  userLastSignIn: 'Son giriş',
 }

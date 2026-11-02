@@ -15,6 +15,7 @@ npm run lint
 ## Rules
 - Never put the `service_role` key here. Only the public URL and publishable key.
 - Admins are rows in the `admins` table, added by hand in the Supabase SQL Editor.
+- The Users tab needs `supabase/admin_list_users.sql`, run once in the Supabase SQL Editor.
 - Questions are never deleted: set them passive (`is_active = false`).
 - New questions start passive. Code is `KIM-0001`-style (first 3 letters of the subject slug).
 - Texts live in `src/lib/strings.js`, database calls in `src/lib/questions.js`.

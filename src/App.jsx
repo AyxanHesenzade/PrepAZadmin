@@ -6,6 +6,7 @@ import QuestionsPage from './components/QuestionsPage'
 import ReportsPage from './components/ReportsPage'
 import SettingsPage from './components/SettingsPage'
 import TeachersPage from './components/TeachersPage'
+import UsersPage from './components/UsersPage'
 import { isAdmin } from './lib/questions'
 import { isConfigured, supabase } from './lib/supabase'
 import { S } from './lib/strings'
@@ -63,6 +64,7 @@ export default function App() {
             { key: 'questions', label: S.questions, children: <QuestionsPage /> },
             { key: 'reports', label: S.reports, children: <ReportsPage /> },
             { key: 'teachers', label: S.teachers, children: <TeachersPage /> },
+            { key: 'users', label: S.users, children: <UsersPage /> },
             { key: 'settings', label: S.settings, children: <SettingsPage /> },
           ]}
         />
